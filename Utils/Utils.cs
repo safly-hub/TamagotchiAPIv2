@@ -12,7 +12,7 @@ namespace TamagotchiAPIv2.Utils
     public class Utilities
     {
         // Change this to true if you want to have your app browsable on the local network
-        private static bool ALLOW_APP_TO_BE_BROWSABLE_ON_THE_LOCAL_NETWORK = false;
+        private static bool ALLOW_APP_TO_BE_BROWSABLE_ON_THE_LOCAL_NETWORK = true;
 
         public static async Task<bool> WaitForMigrations(IWebHost host, DbContext context)
         {
